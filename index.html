@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gajera International School - Election 2025-26</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container" id="appContainer">
+    <!-- Header -->
+    <header>
+      <div class="logo-area">
+        <div class="logo-icon"><img src="Logo.png" alt="School Logo" /></div>
+      </div>
+      <div class="header-center">
+        <div class="school-name">Gajera International School, Utran</div>
+        <img class="ask-logo" src="Think Ask Rise.png" alt="Think Ask Rise" />
+      </div>
+    </header>
+
+    <!-- Title -->
+    <h1 class="main-title">Student Council Election <span>2025-26</span></h1>
+
+    <!-- Category Grid -->
+    <div class="category-grid" id="categoryGrid">
+      <div class="category-card card-head" data-group="head">
+        <div class="icon-wrap"><span class="material-icons">group</span></div>
+        <div class="cat-label">Head</div>
+        <div class="cat-sub">Boy / Girl</div>
+      </div>
+      <div class="category-card card-green" data-group="green">
+        <div class="icon-wrap"><span class="material-icons">grass</span></div>
+        <div class="cat-label">Green House</div>
+        <div class="cat-sub">Captain</div>
+      </div>
+      <div class="category-card card-yellow" data-group="yellow">
+        <div class="icon-wrap"><span class="material-icons">light_mode</span></div>
+        <div class="cat-label">Yellow House</div>
+        <div class="cat-sub">Captain</div>
+      </div>
+      <div class="category-card card-red" data-group="red">
+        <div class="icon-wrap"><span class="material-icons">whatshot</span></div>
+        <div class="cat-label">Red House</div>
+        <div class="cat-sub">Captain</div>
+      </div>
+      <div class="category-card card-blue" data-group="blue">
+        <div class="icon-wrap"><span class="material-icons">water_drop</span></div>
+        <div class="cat-label">Blue House</div>
+        <div class="cat-sub">Captain</div>
+      </div>
+    </div>
+
+    <!-- Actions -->
+    <div class="actions">
+      <button class="action-btn primary" id="resultsBtn"><span class="material-icons">poll</span> View Results</button>
+      <button class="action-btn danger" id="resetBtn"><span class="material-icons">restart_alt</span> Reset Votes</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
