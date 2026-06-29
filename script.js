@@ -5,7 +5,7 @@
       { name: "Taksh Dhameliya", logo: "Student Photos\\05 Head Boy\\Taksh Dhameliya (Head Boy).JPG" },
       { name: "Yash Sonawane", logo: "Student Photos\\06 Head Girl\\Yash Sonawane (Head Boy).JPG" },
       { name: "Arya Kheni", logo: "Student Photos\\05 Head Boy\\Arya Kheni ( Head Boy).JPG" },
-      { name: "Ansh Surani", logo: "Student Photos\\05 Head Boy\\Ansh Surani (Head Boy).JPG" },
+      { name: "Ansh Surani", logo: "Student Photos\\05 Head Boy\\Ansh Surani (Head boy).JPG" },
       { name: "Dhruv Chauhan", logo: "Student Photos\\05 Head Boy\\Dhruv Chauhan (Head Boy).JPG" }
     ],
     'head-girl': [
