@@ -2,58 +2,62 @@
   // ----- Candidate Data -----
   const candidates = {
     'head-boy': [
-      { name: "Aalokik Dingwani", logo: "Student Election Council 2025/5.png" },
-      { name: "Ved Desai", logo: "Student Election Council 2025/4.png" },
+      { name: "Taksh Dhameliya", logo: "Student Photos\\05 Head Boy\\Taksh Dhameliya (Head Boy).JPG" },
+      { name: "Yash Sonawane", logo: "Student Photos\\06 Head Girl\\Yash Sonawane (Head Boy).JPG" },
+      { name: "Arya Kheni", logo: "Student Photos\\05 Head Boy\\Arya Kheni ( Head Boy).JPG" },
+      { name: "Ansh Surani", logo: "Student Photos\\05 Head Boy\\Ansh Surani (Head Boy).JPG" },
+      { name: "Dhruv Chauhan", logo: "Student Photos\\05 Head Boy\\Dhruv Chauhan (Head Boy).JPG" }
     ],
     'head-girl': [
-      { name: "Jahanvi Balar", logo: "Student Election Council 2025/1.png" },
-      { name: "Riddhi Soni", logo: "Student Election Council 2025/3.png" },
-      { name: "Astha Shyani", logo: "Student Election Council 2025/2.png" }
+      { name: "Nisha Patel", logo: "Student Photos\\06 Head Girl\\Nisha Patel (Head Girl).JPG" },
+      { name: "Dharmi Vora", logo: "Student Photos\\06 Head Girl\\Dharmi Vora (Head Girl).JPG" }
+      
     ],
     'green-house-male': [
-      { name: "Dharm Songara", logo: "Student Election Council 2025/11.png" },
-      { name: "Harsh Vanani", logo: "Student Election Council 2025/17.png" },
-      { name: "Taksh Khunt", logo: "Student Election Council 2025/14.png" },
-      { name: "Ansh Usdadiya", logo: "Student Election Council 2025/13.png" }
+      { name: "Aadi Jain", logo: "Student Photos\\03 Green\\Aadi Jain.JPG" },
+      { name: "Vinayak Namdev", logo: "Student Photos\\03 Green\\Vinayak Namdev.JPG" },
+      { name: "Devendra Mishra", logo: "Student Photos\\03 Green\\Devendra Mishra.JPG" }
+      
     ],
     'green-house-female': [
-      { name: "Priyangi Patel", logo: "Student Election Council 2025/15.png" },
-      { name: "Angel Hirpara", logo: "Student Election Council 2025/12.png" },
-      { name: "Pal Koladiya", logo: "Student Election Council 2025/16.png" }
+      { name: "Ayushi Yadav", logo: "Student Photos\\03 Green\\Ayushi Yadav.JPG" },
+      { name: "Janavi Joshi", logo: "Student Photos\\03 Green\\Janavi Joshi.JPG" }
+      
     ],
     'yellow-house-male': [
-      { name: "Aksh Ramani", logo: "Student Election Council 2025/31.png" },
-      { name: "Jenil Kathiriya", logo: "Student Election Council 2025/29.png" },
-      { name: "Kanishk Jasani", logo: "Student Election Council 2025/27.png" },
-      { name: "Kirtipal Singh", logo: "Student Election Council 2025/26.png" }
+      { name: "Atharv Narkar", logo: "Student Photos\\01 Yellow\\Atharv Narkar.JPG" },
+      { name: "Viren Charandas", logo: "Student Photos\\01 Yellow\\Viren Charandas.JPG" },
+      { name: "Shivam Chauhan", logo: "Student Photos\\01 Yellow\\Shivam Chauhan.JPG" }
+      
     ],
     'yellow-house-female': [
-      { name: "Nirva Vekariya", logo: "Student Election Council 2025/30.png" },
-      { name: "Dhyana Patel", logo: "Student Election Council 2025/32.png" },
-      { name: "Dhyani Bhayani", logo: "Student Election Council 2025/28.png" }
+      { name: "Vrunda Bhalodi", logo: "Student Photos\\01 Yellow\\Vrunda Bhalodi.JPG" },
+      { name: "Krupal Katira", logo: "Student Photos\\01 Yellow\\Krupal Katira.JPG" }
+     
     ],
     'red-house-male': [
-      { name: "Priyansh Bhesaniya", logo: "Student Election Council 2025/6.png" },
-      { name: "Dhyey Savaliya", logo: "Student Election Council 2025/7.png" },
-      { name: "Dwij Patel", logo: "Logo.png" },
-      { name: "Hem Patel", logo: "Student Election Council 2025/8.png" }
+      { name: "Priyansh Valand", logo: "Student Photos\\04 Red\\Priyansh Valand.JPG" },
+      { name: "Vatsal Vora", logo: "Student Photos\\04 Red\\Vatsal Vora.JPG" },
+      { name: "Dirgh Khunt", logo: "Student Photos\\04 Red\\Dirgh Khunt.JPG" },
+      { name: "Shrey Vaghani", logo: "Student Photos\\04 Red\\Shrey Vaghani.JPG" },
+      { name: "Jihan Gelani", logo: "Student Photos\\04 Red\\Jihan Gelani.JPG" },
+      { name: "Hem Patel", logo: "Student Photos\\04 Red\\Hem Patel.JPG" }
     ],
     'red-house-female': [
-      { name: "Dhwani Vaghasiya", logo: "Student Election Council 2025/10.png" },
-      { name: "Yasheeka Poojari", logo: "Student Election Council 2025/9.png" },
-      { name: "Sakshi Tiwari", logo: "Logo.png" }
+      { name: "Shreya Tiwari", logo: "Student Photos\\04 Red\\Shreya Tiwari.JPG" },
+      { name: "Jayati Radadiya", logo: "Student Photos\\04 Red\\Jayti Radadiya.JPG" },
+      { name: "Kavyanjali Chadvadiya", logo: "Student Photos\\04 Red\\Kavyanjali Chodvadiya.JPG" }
     ],
     'blue-house-male': [
-      { name: "Ansh Barnwal", logo: "Student Election Council 2025/23.png" },
-      { name: "Dev Goyani", logo: "Student Election Council 2025/20.png" },
-      { name: "Aaditiya Shah", logo: "Student Election Council 2025/22.png" },
-      { name: "Dhyey Patel", logo: "Student Election Council 2025/18.png" }
+      { name: "Vihan Boghara", logo: "Student Photos\\02 Blue- Dev Goyani\\Vihan Boghara.JPG" },
+      { name: "Aryan Soni", logo: "Student Photos\\02 Blue- Dev Goyani\\Aryan Soni.JPG" },
+      { name: "Dev Goyani", logo: "Student Photos\\02 Blue- Dev Goyani\\Dev Goyani.JPG" }
+      
     ],
     'blue-house-female': [
-      { name: "Tannu Tiwari", logo: "Student Election Council 2025/25.png" },
-      { name: "Dhruvi Meghani", logo: "Student Election Council 2025/19.png" },
-      { name: "Soumya Bhesaniya", logo: "Student Election Council 2025/24.png" },
-      { name: "Devi Pandya", logo: "Student Election Council 2025/21.png" }
+      { name: "Yanshi Mistry", logo: "Student Photos\\02 Blue- Dev Goyani\\Yanshi Mistry.JPG" },
+      { name: "Vancy Mangukiyai", logo: "Student Photos\\02 Blue- Dev Goyani\\Vancy Mangukiya.JPG" },
+      { name: "Tanu Tiwari", logo: "Student Photos\\02 Blue- Dev Goyani\\Tannu Tiwari.JPG" }
     ]
   };
 
